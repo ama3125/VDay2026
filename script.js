@@ -25,6 +25,7 @@
     question.textContent = 'Yay! Happy Valentine\'s Day!';
     buttons.classList.add('hidden');
     responseEl.classList.add('hidden');
+    document.getElementById('horseImage').classList.remove('hidden');
   });
 
   noBtn.addEventListener('mouseenter', function () {
